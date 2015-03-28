@@ -1,0 +1,37 @@
+/* STYLESHEET : "../css_animation_games/playtime.html" */
+
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  padding: 1%;
+  margin: 0;
+  min-height: 100%;
+  max-height: 100%;
+  background-color: #FDFD96;
+}
+
+h1 {
+  padding: 1%;
+  margin: 0;
+}
+
+p {
+  padding: 1%;
+  margin: 0;
+}
+
+div {
+  padding: 1%;
+  margin: 0;
+}
+  img {
+    padding: 1%;
+    margin: 0;
+    height: 400px;
+    width: 500px;
+  }
