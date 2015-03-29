@@ -1,4 +1,4 @@
-/* STYLESHEET : "../css_animation_games/playtime.html" */
+/* STYLESHEET : "../css_animation_games/header.html" */
 
 * {
   -webkit-box-sizing: border-box;
@@ -32,6 +32,3 @@ header {
   0% { background-position: 0 0; }
   100% { background-position: -990px 0; }
 }
-
-
-  /*background-size: cover;*/
