@@ -1,6 +1,5 @@
 /* STYLESHEET : "../css_animation_games/playtime.html" */
 
-
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -8,30 +7,31 @@
 }
 
 html, body {
-  padding: 1%;
+  padding: 0;
   margin: 0;
   min-height: 100%;
   max-height: 100%;
   background-color: #FDFD96;
 }
 
-h1 {
-  padding: 1%;
+header {
+  padding: 0;
   margin: 0;
+
+  height: 200px;
+  border-top: 10px solid purple;
+  border-bottom: 10px solid purple;
+  background-image: url(../images/seamless2.jpg);
+  background-repeat: repeat-x;
+  -webkit-animation: slide 5s linear infinite;
 }
 
-p {
-  padding: 1%;
-  margin: 0;
+/* ANIMATION */
+
+@-webkit-keyframes slide {
+  0% { background-position: 0 0; }
+  100% { background-position: -990px 0; }
 }
 
-div {
-  padding: 1%;
-  margin: 0;
-}
-  img {
-    padding: 1%;
-    margin: 0;
-    height: 400px;
-    width: 500px;
-  }
+
+  /*background-size: cover;*/
